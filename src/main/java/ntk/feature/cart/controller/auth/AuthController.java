@@ -2,8 +2,8 @@ package ntk.feature.cart.controller.auth;
 
 import lombok.AllArgsConstructor;
 import ntk.feature.cart.payload.ResponseHandler;
-import ntk.feature.cart.payload.request.LoginRequest;
-import ntk.feature.cart.payload.request.RegisterRequest;
+import ntk.feature.cart.payload.dto.request.LoginRequest;
+import ntk.feature.cart.payload.dto.request.RegisterRequest;
 import ntk.feature.cart.service.AuthServices;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

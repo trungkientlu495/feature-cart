@@ -1,9 +1,9 @@
-package ntk.feature.cart.payload.request;
+package ntk.feature.cart.payload.dto.request;
 
 import lombok.Data;
 
 @Data
-public class InsertProduct {
+public class ProductRequest {
     private Long idProduct;
     private Long quantity;
 }

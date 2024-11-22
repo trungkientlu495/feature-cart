@@ -1,4 +1,4 @@
-package ntk.feature.cart.payload.request;
+package ntk.feature.cart.payload.dto.request;
 
 import lombok.Data;
 
